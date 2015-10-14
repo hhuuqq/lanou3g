@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>5ABA73A1-45D7-4529-B450-4F65D4CE69C3</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Music</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>2037D63CC398A7922C20731EF07AD44FC32D66D9</key>
+		<string>https://github.com/hhuuqq/lanou3g.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Music/Music.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>2037D63CC398A7922C20731EF07AD44FC32D66D9</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/hhuuqq/lanou3g.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>2037D63CC398A7922C20731EF07AD44FC32D66D9</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>2037D63CC398A7922C20731EF07AD44FC32D66D9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>music_lanou</string>
+		</dict>
+	</array>
+</dict>
+</plist>
