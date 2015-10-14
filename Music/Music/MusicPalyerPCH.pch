@@ -1,0 +1,23 @@
+//
+//  MusicPalyerPCH.pch
+//  Music
+//
+//  Created by hhuuqq on 15/10/5.
+//  Copyright (c) 2015年 lanou3g. All rights reserved.
+//
+
+#ifndef Music_MusicPalyerPCH_pch
+#define Music_MusicPalyerPCH_pch
+
+
+#import "APPHeader.h"
+#import "IMPHeader.h"
+#import "KEYHeader.h"
+#import "URLHeader.h"
+
+
+
+
+
+
+#endif

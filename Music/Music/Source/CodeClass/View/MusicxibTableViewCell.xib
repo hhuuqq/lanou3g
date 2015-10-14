@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="112" id="KGk-i7-Jjw" customClass="MusicxibTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="598" height="112"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="vkF-Wv-aav">
+                        <rect key="frame" x="18" y="13" width="80" height="80"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="N5T-OB-sQm"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Y27-DM-4Fs"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="80" id="gz6-5E-meZ"/>
+                            <constraint firstAttribute="width" constant="80" id="i8h-0m-NMi"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="80" id="ryg-Mp-G1C"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8ln-UY-Fe6">
+                        <rect key="frame" x="106" y="18" width="474" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="0.50196081399917603" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="sOI-Tf-HW9"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kET-6A-Aha">
+                        <rect key="frame" x="108" y="-34" width="472" height="30"/>
+                        <color key="backgroundColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="23m-4T-0UU"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="AfJ-UF-EIE"/>
+                            <constraint firstAttribute="height" constant="30" id="Kah-J2-eyQ"/>
+                            <constraint firstAttribute="height" relation="lessThanOrEqual" constant="30" id="XRl-zO-NWj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottomMargin" secondItem="vkF-Wv-aav" secondAttribute="bottom" constant="10" id="2wS-Cg-pZh"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="8ln-UY-Fe6" secondAttribute="trailing" constant="10" id="4jb-CZ-D4K"/>
+                    <constraint firstItem="vkF-Wv-aav" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="70I-FB-C17"/>
+                    <constraint firstItem="vkF-Wv-aav" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="8h5-Vh-WfX"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kET-6A-Aha" secondAttribute="trailing" constant="10" id="AEj-tv-y0Q"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kET-6A-Aha" secondAttribute="trailing" constant="10" id="BXg-Nd-Z0z"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kET-6A-Aha" secondAttribute="trailing" constant="10" id="BaW-Wz-CbI"/>
+                    <constraint firstItem="8ln-UY-Fe6" firstAttribute="top" secondItem="kET-6A-Aha" secondAttribute="bottom" constant="22" id="CpF-hu-w70"/>
+                    <constraint firstItem="kET-6A-Aha" firstAttribute="leading" secondItem="vkF-Wv-aav" secondAttribute="trailing" constant="10" id="Die-LC-xeh"/>
+                    <constraint firstItem="kET-6A-Aha" firstAttribute="leading" secondItem="vkF-Wv-aav" secondAttribute="trailing" constant="10" id="Ics-gL-2aI"/>
+                    <constraint firstItem="kET-6A-Aha" firstAttribute="leading" secondItem="vkF-Wv-aav" secondAttribute="trailing" constant="10" id="Mzd-SN-dX5"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vkF-Wv-aav" secondAttribute="bottom" constant="5" id="OeV-nu-tPR"/>
+                    <constraint firstItem="vkF-Wv-aav" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="PvX-JO-nxa"/>
+                    <constraint firstItem="8ln-UY-Fe6" firstAttribute="leading" secondItem="vkF-Wv-aav" secondAttribute="trailing" constant="8" id="QCM-xZ-fLD"/>
+                    <constraint firstItem="kET-6A-Aha" firstAttribute="leading" secondItem="vkF-Wv-aav" secondAttribute="trailing" constant="10" id="SHx-Ty-2T8"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kET-6A-Aha" secondAttribute="trailing" constant="10" id="Udp-0E-bMa"/>
+                    <constraint firstItem="vkF-Wv-aav" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="YHy-IV-V9t"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kET-6A-Aha" secondAttribute="trailing" constant="10" id="ZyV-ZH-EmT"/>
+                    <constraint firstItem="vkF-Wv-aav" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="cxX-Ia-aPJ"/>
+                    <constraint firstItem="vkF-Wv-aav" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="jAb-PW-GaU"/>
+                    <constraint firstItem="8ln-UY-Fe6" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="10" id="kmp-fB-OGR"/>
+                    <constraint firstItem="kET-6A-Aha" firstAttribute="leading" secondItem="vkF-Wv-aav" secondAttribute="trailing" constant="10" id="mYf-c1-Pu0"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vkF-Wv-aav" secondAttribute="bottom" constant="69" id="sBT-wF-lIm"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="kET-6A-Aha" secondAttribute="trailing" constant="10" id="txe-Um-z5o"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="vkF-Wv-aav" secondAttribute="bottom" constant="10" id="uSZ-bq-QdQ"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="70I-FB-C17"/>
+                        <exclude reference="8h5-Vh-WfX"/>
+                        <exclude reference="OeV-nu-tPR"/>
+                        <exclude reference="PvX-JO-nxa"/>
+                        <exclude reference="jAb-PW-GaU"/>
+                        <exclude reference="sBT-wF-lIm"/>
+                        <exclude reference="uSZ-bq-QdQ"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <point key="canvasLocation" x="462" y="207"/>
+        </tableViewCell>
+    </objects>
+</document>
